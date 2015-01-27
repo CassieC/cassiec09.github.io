@@ -99,6 +99,8 @@ textarea {
 
 body{
     font-family: "Roboto", helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 header{
@@ -147,7 +149,7 @@ h2{
     margin-bottom: 1em;
     color: #000;
     font-size: 2em;
-    font-weight: 200;
+    font-weight: 100;
     text-align: center;
 }
 
@@ -192,8 +194,29 @@ p{
 }
 
 
+/* ==========================================================================
+    Navigation
+   ========================================================================== */
 
+nav{
+    text-align: center;
+    background-color: #1E3157;
+}
 
+ul {
+    margin:0;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 1.5em 5em 1.5em 5em;
+    margin:0;
+}
+
+.mobile {
+
+    background-color: #000;
+}
 
 
 
